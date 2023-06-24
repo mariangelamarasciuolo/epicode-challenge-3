@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url('https://www.nationalgeographic.it/upload/ngi-hero/gettyimages-660629130_1.jpg');
+    /* normalizzo la visualizzazione della foto  */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* altre immagini */
+.bari {
+    background-image: url('https://turismo.puglia.it/wp-content/uploads/sites/124/bari-veduta-aerea-hd.jpg');
+}
+.roma {
+    background-image: url('https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/10/iStock-177303568.jpg?im=AspectCrop=(16,9);');
+}
+.milano {
+    background-image: url('https://www.yesmilano.it/sites/default/files/articolo/copertina/6143/22465/Copertina-milano-at-a-glance-ph-photophonico.png');
+}
+.napoli {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/napoli-1653914862.png');
+}
+.verona {
+    background-image: url('https://www.tourism.verona.it/images/pagine/centro-storico-verona.jpg');
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1,
+h3 {
+    margin-bottom: 0;
+}
+
+#autore {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: rgb(0,255,200);
+    background: linear-gradient(90deg, rgba(0,255,200,1) 0%, rgba(75,207,23,1) 35%, rgba(0,255,82,1) 100%);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    border-color: #dfdfdf;
+}
+a{
+    text-decoration: none;
+    color:rgb(0,255,200);
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+#home{
+    color: white;
+}
